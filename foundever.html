@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundever - BSCS Educational Tour 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for consistency and slight enhancements */
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-white text-gray-800; 
+        }
+        .container {
+            @apply mx-auto px-4 sm:px-6 lg:px-8;
+        }
+        .gradient-bg-header {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .back-button {
+            @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100;
+        }
+        .info-card {
+            @apply bg-white rounded-xl shadow-lg p-6 sm:p-8 transition-all duration-300 ease-in-out;
+        }
+        .info-card:hover {
+            @apply transform -translate-y-1 shadow-xl;
+        }
+        /* New style for image hover effect */
+        .company-image-hover:hover {
+            transform: scale(1.03); /* Slightly enlarge image on hover */
+            transition: transform 0.3s ease-in-out; /* Smooth transition */
+        }
+
+        /* Dark mode styles - consistent with your main portfolio */
+        body.dark {
+            @apply bg-gray-900 text-gray-200;
+        }
+        body.dark .text-gray-800 {
+            @apply text-gray-200;
+        }
+        body.dark .text-gray-600 {
+            @apply text-gray-400;
+        }
+        body.dark .gradient-bg-header {
+            background: linear-gradient(135deg, #4338ca 0%, #7c3aed 100%);
+        }
+        body.dark .back-button {
+            @apply bg-purple-600 hover:bg-purple-700 focus:ring-purple-500;
+        }
+        body.dark .info-card {
+            @apply bg-gray-800 border border-gray-700;
+        }
+    </style>
+</head>
+<body class="dark:bg-gray-900 dark:text-gray-200">
+
+    <!-- Header Section -->
+    <header class="gradient-bg-header text-white py-12 sm:py-16">
+        <div class="container text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">Foundever PH</h1>
+            <p class="text-xl sm:text-2xl font-light opacity-90">What We Learned as WMSU BSCS Students</p>
+        </div>
+    </header>
+
+    <main class="container py-12 sm:py-16">
+        <!-- Back to Educational Tour Button -->
+        <div class="mb-10 text-left">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Tour Overview
+            </a>
+        </div>
+
+        <!-- Company Overview Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl font-light opacity-90 text-center">Inside Foundever PH</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <!-- Image with responsive 16:9 aspect ratio and hover effect -->
+                <div class="aspect-w-16 aspect-h-9 mb-6 overflow-hidden rounded-lg">
+                    <img src="pictures/03c06fdb-68dc-4dde-96c4-c9d4b33f6fa2.jpeg" alt="Foundever PH Office" class="w-full h-full object-cover company-image-hover" onerror="this.src='https://placehold.co/800x450/6e8efb/ffffff?text=Foundever+PH+Office'">
+                </div>
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    On June 9, 2025, we, the BSCS students from WMSU, visited Foundever PH in Pasig City. This trip helped us learn about real-world tech jobs. Foundever is a big company that helps other businesses talk to their customers using smart tech like AI and cloud computing.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+                    We saw how their teams use different tech tools to handle many customer calls and messages. We learned about customer service, digital changes, keeping data private, and how they work in quick, flexible teams.
+                </p>
+            </div>
+        </section>
+
+        <!-- Insights from the Visit Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl font-light opacity-90 text-center">My Personal Insights</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Visiting Foundever was super interesting! It showed me how huge customer service is. As a Frontend Developer and UI Designer, I noticed how important user-friendly tools and strong systems are for their staff. It was cool to see how tech helps make customers happy on such a big scale.
+                </p>
+            </div>
+        </section>
+
+        <!-- Industry Overview by IBPAP Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl font-light opacity-90 text-center">Learning About the Industry from IBPAP</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Ms. Zoe Diaz De Rivera from IBPAP gave us a great overview of the IT-BPM industry in the Philippines. She talked about new trends, job openings, and how our country is a big leader in this field. This industry is a huge part of the Philippine economy, employing over 1.7 million people.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+                    New tech like AI and automation are creating exciting jobs in data analysis, software, and cybersecurity. Ms. Diaz De Rivera stressed that companies also look for good communication, critical thinking, and adaptability. She told us to build online portfolios and get internships to be ready for these jobs.
+                </p>
+            </div>
+        </section>
+
+        <!-- Inspiring the Next Generation of Tech Leaders (Student Insights) Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl font-light opacity-90 text-center">What This Tour Mean To Us</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed italic">
+                    “This visit helped me realize how broad the opportunities are in the IT-BPM sector. It’s not just about call centers—it’s about innovation and technology,” said one of my fellow BSCS students. “Foundever and IBPAP opened our eyes to the possibilities that await us.”
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+                    The tour helped connect our school with the tech world. WMSU is helping us become skilled and ready for the future. Trips like this make sure we understand what the industry needs and the latest tech trends.
+                </p>
+            </div>
+        </section>
+
+        <!-- Photo Gallery (Optional - Add your own images here) -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl font-light opacity-90 text-center">Moments From Our Visit</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <img src="pictures/504774366_1047314337013449_6533393297134762234_n.jpg" alt="Tour group photo at Foundever" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/a3c3c97d-96d1-46d2-96ba-fe6d4115a3b1.jpeg" alt="Foundever office interior" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/509625832_1230755272182612_4622338053411700900_n.jpg" alt="Foundever presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">                
+                <img src="pictures/509418932_1230743055517167_5225533213309317622_n.jpg" alt="Foundever presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/509439463_1230749395516533_6327703252343745659_n.jpg" alt="Foundever presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/510503686_1230752882182851_2685170011004507475_n.jpg" alt="Foundever presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">                
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 dark:bg-gray-900">
+        <div class="container text-center">
+            <p>&copy; 2025 BSCS Educational Tour.</p>
+            <p class="mt-2 text-gray-400">
+                A heartfelt thank you to everyone who made the BSCS Educational Tour 2025 an unforgettable and enriching experience. The insights gained from our visits have been truly invaluable. This journey has deeply inspired me, Indira Mojon Ulah, and I am incredibly grateful for every opportunity.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle Logic (consistent with your main portfolio)
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const currentTheme = localStorage.getItem('theme');
+
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        }
+
+        // Initial theme application
+        // Ensure the page defaults to 'light' if no theme is saved
+        if (currentTheme) {
+            applyTheme(currentTheme);
+        } else {
+            applyTheme('light'); // Default to light mode
+            localStorage.setItem('theme', 'light'); // Save light mode as default
+        }
+
+        // Fallback for image errors
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                this.src = 'https://placehold.co/400x300/6e8efb/ffffff?text=Image+Not+Found'; // Generic fallback
+            };
+        });
+    </script>
+</body>
+</html>

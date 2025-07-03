@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSCS Educational Tour 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pictures/03c06fdb-68dc-4dde-96c4-c9d4b33f6fa2.jpeg') center/cover no-repeat;
+        }
+        .company-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .nav-link.active {
+            border-bottom: 3px solid #3b82f6;
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-blue-600">BSCS Tour '25</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link active py-2 px-1 text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="#companies" class="nav-link py-2 px-1 text-gray-700 hover:text-blue-600 transition">Companies</a>
+                    <a href="#schedule" class="nav-link py-2 px-1 text-gray-700 hover:text-blue-600 transition">Schedule</a>
+                    <a href="#venue" class="nav-link py-2 px-1 text-gray-700 hover:text-blue-600 transition">Venue</a>
+                    <a href="#speakers" class="nav-link py-2 px-1 text-gray-700 hover:text-blue-600 transition">Speakers</a>
+                    <a href="#gallery" class="nav-link py-2 px-1 text-gray-700 hover:text-blue-600 transition">Gallery</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-2xl text-gray-700"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="md:hidden hidden bg-white shadow-lg" id="mobileMenu">
+        <div class="px-2 pt-2 pb-4 space-y-1 sm:px-3">
+            <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Home</a>
+            <a href="#companies" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Companies</a>
+            <a href="#schedule" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Schedule</a>
+            <a href="#venue" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Venue</a>
+            <a href="#speakers" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Speakers</a>
+            <a href="#gallery" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Gallery</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white min-h-[70vh] flex items-center justify-center">
+        <div class="text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">BSCS Educational Tour 2025</h1>
+            <p class="text-xl md:text-2xl mb-8">Exploring Tech Companies in the Philippines • June 8-15, 2025</p>
+            <a href="#schedule" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium inline-block transition">View Itinerary</a>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About The Tour</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-gray-700 mb-4">The BSCS Educational Tour 2025 was an immersive week-long journey through some of the most prestigious tech companies in the Philippines, followed by a relaxing retreat in Tagaytay and Baguio.</p>
+                    <p class="text-gray-700 mb-4">Our journey commenced with a City Tour on the first day, setting the stage for the exciting week ahead. From June 9-11, we visited six leading companies: Foundever, Google, Teleperformance, Kollab, Asian Development Bank (ADB), and MicroSourcing, gaining valuable insights into the tech industry and potential career paths.</p>
+                    <p class="text-gray-700">The final two days were spent in Tagaytay and Baguio, where we reflected on our experiences while enjoying the scenic beauty of these popular destinations.</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="pictures/1b66bcbe-8cc2-4493-802c-fc19960a90be.jpeg" class="w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Visits Section -->
+    <section id="companies" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Companies We Visited</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Each company provided unique insights into the tech industry, career paths, and emerging technologies.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="foundever.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/03c06fdb-68dc-4dde-96c4-c9d4b33f6fa2.jpeg" alt="Modern Foundever office space with collaborative workstations and bright lighting" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Foundever</h3>
+                        <p class="text-gray-600 mb-4">June 9, 2025 • 9:00 AM - 12:00 PM</p>
+                        <p class="text-gray-700">Learned about customer experience solutions and how AI is transforming customer service operations globally.</p>
+                    </div>
+                </a>
+
+                <a href="google.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/75feda0b-3f16-42a7-a16f-7bc7645cfc54.jpeg" alt="Google Philippines office with colorful Google-themed decor and collaborative spaces" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Google Philippines</h3>
+                        <p class="text-gray-600 mb-4">June 9, 2025 • 1:00 PM - 4:00 PM</p>
+                        <p class="text-gray-700">Explored Google's innovative culture, learned about cloud technologies and career opportunities in one of the world's top tech companies.</p>
+                    </div>
+                </a>
+
+                <a href="teleperformance.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/510477004_1231007788824027_8539648683130616301_n.jpg" alt="Teleperformance call center with agents at workstations and digital displays on walls" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Teleperformance</h3>
+                        <p class="text-gray-600 mb-4">June 10, 2025 • 8:00 AM - 12:00 PM</p>
+                        <p class="text-gray-700">Discovered the technologies behind large-scale customer support operations and the IT infrastructure supporting global services.</p>
+                    </div>
+                </a>
+
+                <a href="kollab.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/9a5d1c8e-9e20-4a8b-ab08-126080a32ffe.jpeg" alt="Kollab startup office with young professionals collaborating in an open workspace with whiteboards" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Kollab</h3>
+                        <p class="text-gray-600 mb-4">June 10, 2025 • 1:00 PM - 5:00 PM</p>
+                        <p class="text-gray-700">Explored startup culture and learned about digital collaboration tools and agile development processes from this growing tech company.</p>
+                    </div>
+                </a>
+
+                <a href="adb.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/0a3c8eff-5b86-4472-b018-9bc090bfc411.jpeg" alt="Asian Development Bank headquarters with modern architecture and professional staff in meeting rooms" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Asian Development Bank</h3>
+                        <p class="text-gray-600 mb-4">June 11, 2025 • 8:00 AM - 12:00 PM</p>
+                        <p class="text-gray-700">Learned how technology is used in international development, financial systems, and the intersection of tech with socioeconomic development.</p>
+                    </div>
+                </a>
+
+                <a href="microsourcing.html" class="company-card block bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg hover:scale-105">
+                    <div class="h-48 overflow-hidden">
+                        <img src="pictures/510474506_1231263722131767_4354223233627877406_n.jpg" alt="MicroSourcing office with diverse teams working on computers in a modern workspace" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">MicroSourcing</h3>
+                        <p class="text-gray-600 mb-4">June 11, 2025 • 1:00 PM - 4:00 PM</p>
+                        <p class="text-gray-700">Explored business process outsourcing, IT services, and the role of technology in supporting global businesses from the Philippines.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Tour Schedule</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4">Detailed itinerary of our educational adventure</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto" style="max-height: 600px; overflow-y: auto; padding-right: 15px;">
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 8</div>
+                        <h3 class="text-xl font-bold text-gray-800">Arrival in Manila & City Tour</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:25 A.M.</p>
+                            <p class="text-gray-700">Arrival in Manila via Philippine Airlines</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:30 P.M.</p>
+                            <p class="text-gray-700">Manila Tour: Intramuros, Fort Santiago Walking Tour, Mall of Asia</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">6:30 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 9</div>
+                        <h3 class="text-xl font-bold text-gray-800">Foundever Philippines & Google Philippines Visit</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:00 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">7:30 A.M.</p>
+                            <p class="text-gray-700">Proceed to Foundever</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">9:30 A.M.</p>
+                            <p class="text-gray-700">Visit: FOUNDEVER PHILIPPINES</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ Foundever</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:30 P.M.</p>
+                            <p class="text-gray-700">Visit: GOOGLE PHILIPPINES</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">7:00 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 10</div>
+                        <h3 class="text-xl font-bold text-gray-800">Teleperformance & Kollab Philippines Visit</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:00 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">7:30 A.M.</p>
+                            <p class="text-gray-700">Proceed to Teleperformance</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">8:30 A.M.</p>
+                            <p class="text-gray-700">Visit: TELEPERFORMANCE PHILIPPINES</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ Teleperformance</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:30 P.M.</p>
+                            <p class="text-gray-700">Visit: KOLLAB PHILIPPINES</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">7:00 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 11</div>
+                        <h3 class="text-xl font-bold text-gray-800">Asian Development Bank & MicroSourcing Visit</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:00 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">7:30 A.M.</p>
+                            <p class="text-gray-700">Proceed to ADB</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">9:00 A.M.</p>
+                            <p class="text-gray-700">Visit: ASIAN DEVELOPMENT BANK (ADB) C/O CXC</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">11:30 A.M.</p>
+                            <p class="text-gray-700">Lunch @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:00 P.M.</p>
+                            <p class="text-gray-700">Proceed to MicroSourcing</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:30 P.M.</p>
+                            <p class="text-gray-700">Visit: MICROSOURCING</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">7:00 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 12</div>
+                        <h3 class="text-xl font-bold text-gray-800">Tagaytay Tour</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:30 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">8:00 A.M.</p>
+                            <p class="text-gray-700">Proceed to Tagaytay</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">10:00 A.M.</p>
+                            <p class="text-gray-700">MR RAMIT (if weather permits)</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ Tagaytay</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">3:30 P.M.</p>
+                            <p class="text-gray-700">Back to Manila</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">6:30 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 13</div>
+                        <h3 class="text-xl font-bold text-gray-800">Baguio City Tour</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">4:00 A.M.</p>
+                            <p class="text-gray-700">Proceed to Baguio City</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:30 A.M.</p>
+                            <p class="text-gray-700">Estimated Time of Arrival in Baguio City</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">8:30 A.M.</p>
+                            <p class="text-gray-700">Baguio City Tour: • Strawberry Farm, Chinese Bell Church</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ Baguio</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">2:00 P.M.</p>
+                            <p class="text-gray-700">• Philippine Military Academy</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">6:30 P.M.</p>
+                            <p class="text-gray-700">Dinner @ Prince Plaza Hotel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">June 14</div>
+                        <h3 class="text-xl font-bold text-gray-800">Baguio Exploration & Departure</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">7:00 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ Prince Plaza Hotel</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">8:00 A.M.</p>
+                            <p class="text-gray-700">Freehouse on your own</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">11:00 A.M.</p>
+                            <p class="text-gray-700">Departure to Baguio City (SM Baguio for Pasalubong Shopping)</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ Prince Plaza Hotel</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">1:30 P.M.</p>
+                            <p class="text-gray-700">Check out from Prince Plaza Hotel / Back to Manila</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:30 P.M.</p>
+                            <p class="text-gray-700">Estimated time of arrival in Manila</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">7:30 P.M.</p>
+                            <p class="text-gray-700">Dinner @ DJM Dormitory / Rest</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 text-blue-800 rounded-full w-20 h-20 flex items-center justify-center mr-4 font-bold">Jun 15</div>
+                        <h3 class="text-xl font-bold text-gray-800">Departure</h3>
+                    </div>
+                    <div class="ml-14 border-l-2 border-blue-200 pl-6 pb-6">
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">6:30 A.M.</p>
+                            <p class="text-gray-700">Breakfast @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                            <p class="font-medium text-gray-800">12:00 N.N.</p>
+                            <p class="text-gray-700">Lunch @ DJM Dormitory</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <p class="font-medium text-gray-800">1:00 P.M.</p>
+                            <p class="text-gray-700">Check out from DJM Dormitory / Proceed to the Airport</p>
+                            <p class="text-gray-700">Departure for Zamboanga City</p>
+                            <p class="text-gray-700">**END OF TOUR**</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Venues & Locations</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4">Explore the places we visited during our educational tour</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Metro Manila Locations</h3>
+                        <p class="text-gray-700 mb-4">These are the companies and organizations we visited in Metro Manila:</p>
+                        <ul class="space-y-4 text-gray-700" style="max-height: 500px; overflow-y: auto; padding-right: 15px;">
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Foundever – Pasig, Metro Manila</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.1274533036495!2d121.07722771500001!3d14.591026589808246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c80521e1d087%3A0xc3f6d71b30b4d4b1!2sFoundever%20Philippines!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Google Philippines – Taguig</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.9442000000005!2d121.05051939999999!3d14.5492497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8d200000001%3A0x8e8e7a02b1f8f3c7!2sGoogle%20Philippines!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Microsourcing – 10 Orchard Road, Quezon City</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.0540000000005!2d121.0500171!3d14.6508933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b70000000001%3A0x7d0a2d5e3f3b9c6a!2sMicroSourcing%20-%20Eastwood%20City!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Kollab PH – Makati City</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.0620000000005!2d121.0205798!3d14.5428498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c81d00000001%3A0x5d9e5f4c5e3d7a8c!2sKollab%20PH!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Teleperformance – Ayala, Makati</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.0620000000005!2d121.0205798!3d14.5428498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c81d00000001%3A0x5d9e5f4c5e3d7a8c!2sTeleperformance%20Makati%20Ayala!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Asian Development Bank – Ortigas</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.1274533036495!2d121.07722771500001!3d14.591026589808246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c80521e1d087%3A0xc3f6d71b30b4d4b1!2sAsian%20Development%20Bank!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Northern Luzon & Southern Tagalog Locations</h3>
+                        <p class="text-gray-700 mb-4">We also explored these notable places outside Metro Manila:</p>
+                        <ul class="space-y-4 text-gray-700" style="max-height: 500px; overflow-y: auto; padding-right: 15px;">
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Philippine Military Academy – Baguio</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.9100000000003!2d120.60904000000001!3d16.39869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a13e8b000001%3A0x6b8a8b0e7a2b2c1!2sPhilippine%20Military%20Academy!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>The Mansion – Baguio</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.9100000000003!2d120.60904000000001!3d16.39869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a13e8b000001%3A0x6b8a8b0e7a2b2c1!2sThe%20Mansion!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>People’s Park in the Sky – Tagaytay</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.513!2d120.942!3d14.077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5a000000001%3A0x5a2d1d0c1b0e3f2!2sPeople's%20Park%20in%20the%20Sky!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                            <li class="venue-item border p-4 rounded-md bg-gray-50">
+                                <div class="venue-name mb-2 font-medium"><strong>Skyranch – Tagaytay</strong></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.513!2d120.942!3d14.077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5a000000001%3A0x5a2d1d0c1b0e3f2!2sSky%20Ranch%20Tagaytay!5e0!3m2!1sen!2sph!4v1704200000000!5m2!1sen!2sph" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-md"></iframe>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers -->
+    <section id="speakers" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Speakers</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4">Insights from industry leaders and experts</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/01912ecb-07c1-4c19-b3a5-6bf723fcc8b5.jpeg" alt="Carlo Quezon" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Carlo Quezon</h4>
+                    <p class="text-sm text-gray-600">Recruitment Marketing and Sourcing Manager / Foundever</p>
+                    <p class="text-gray-700 mt-2 text-sm">Carlo Quezon brings an inspiring message of resilience and opportunity. He believes in the power of seizing chances, even in the face of adversity. Carlo will share his personal philosophy, encapsulated by the saying, "Stand up and leave the crowd," encouraging the youth to carve their own paths and embrace unique opportunities for growth and success in their careers.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/6e76c60a-0dac-4f49-8b56-0cae63c96a45.jpeg" alt="Atty. Yves Gonzales" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Atty. Yves Gonzales</h4>
+                    <p class="text-sm text-gray-600">Government Affairs and Public Policy / Google</p>
+                    <p class="text-gray-700 mt-2 text-sm">Atty. Yves Gonzales take attendees on a captivating journey through the inspiring story of Google. He delve into the foundational principles and innovative spirit that propelled Google to become a global technology giant, offering insights into its growth, culture, and impact.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/75077165-6838-4634-b11d-08b29eb40c78.jpeg" alt="Beatrice Grace Bonjibod" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Beatrice Grace Bonjibod</h4>
+                    <p class="text-sm text-gray-600">Brand Marketing Specialist / Teleperformance</p>
+                    <p class="text-gray-700 mt-2 text-sm">Beatrice Grace Bonjibod offer a unique look into the operational dynamics and inclusive culture at Teleperformance. She particularly highlight the significant presence of women in their workforce and discuss the environment that fosters their success and contributions within the company.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/b39cade0-fe62-4ecc-ab11-3c19dff7224b.jpeg" alt="Ms. Jazmine Claire Calma" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Ms. Jazmine Claire Calma</h4>
+                    <p class="text-sm text-gray-600">Senior Engineer, Quality Assurance / Kollab</p>
+                    <p class="text-gray-700 mt-2 text-sm">Ms. Jazmine Claire Calma share her inspiring experience of working at Kollab, emphasizing the company's unique culture of freedom and fun. She discuss how Kollab fosters an environment that encourages creativity, work-life balance, and active participation in outdoor activities, making it an engaging and rewarding workplace.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/d3e2317b-2067-4450-bdeb-8fbcd56817a9.jpeg" alt="Mr. Toni-Jan Keith Monserrat" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Mr. Toni-Jan Keith Monserrat</h4>
+                    <p class="text-sm text-gray-600">Senior Principal Engineer AI & Data / Kollab</p>
+                    <p class="text-gray-700 mt-2 text-sm">Mr. Toni-Jan Keith Monserrat provide a dual perspective, combining his expertise in algorithms with profound personal anecdotes. He did not only share insights into the technical aspects of AI and data but also deliver inspiring stories from his life journey, demonstrating the power of perseverance and dedication.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/2375814a-89a5-4c5c-a8bf-066e8e5ed395.jpeg" alt="Mr. Miguel Siriban" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Mr. Miguel Siriban</h4>
+                    <p class="text-sm text-gray-600">UI/UX Designer / Kollab</p>
+                    <p class="text-gray-700 mt-2 text-sm">Mr. Miguel Siriban, a seasoned UI/UX Designer, guide participants through the art of crafting interactive and compelling portfolios. He share practical design principles and creative approaches to help attendees showcase their skills and projects effectively, making a lasting impression.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/077ded28-533b-494b-a017-1ed2f2d30839.jpeg" alt="Mr. Matt Farley" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Mr. Matt Farley</h4>
+                    <p class="text-sm text-gray-600">Infrastructure & Technology Director / Asia's Development Bank</p>
+                    <p class="text-gray-700 mt-2 text-sm">Mr. Matt Farley share his delightful experiences of working in the Philippines, affirming the popular slogan "It's more fun in the Philippines" through his professional and personal anecdotes. He also highlight successful projects, including their impactful solar panel initiatives in the provincial regions, showcasing how technology can drive positive change in communities.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/16424d4c-2b79-4d1d-80a9-2a1ae12cb860.jpeg" alt="Ms. Aira Omalin" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Ms. Aira Omalin</h4>
+                    <p class="text-sm text-gray-600">Business & Talent Intelligence Advisor / Microsourcing</p>
+                    <p class="text-gray-700 mt-2 text-sm">Ms. Aira Omalin provide invaluable guidance on leveraging LinkedIn for professional success. She share practical tips and strategies on how to create a presentable and impactful LinkedIn profile, helping attendees optimize their online presence for career advancement and networking.</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center">
+                    <img src="pictures/2248c3d5-33f4-499e-bf70-8bf3e8fc4601.jpeg" alt="Ms. Haidee C. Enriquez" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                    <h4 class="font-bold text-gray-800">Ms. Heidee C. Enriquez</h4>
+                    <p class="text-sm text-gray-600">CEO / Microsourcing</p>
+                    <p class="text-gray-700 mt-2 text-sm">As the CEO of Microsourcing, Ms. Haidee C. Enriquez share her remarkable and inspiring journey of building the company from the ground up. She offer insights into the challenges, triumphs, and key decisions that shaped Microsourcing into the successful enterprise it is today, providing valuable lessons in entrepreneurship and leadership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Tour Gallery</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4">Memories from our educational adventure</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/504774366_1047314337013449_6533393297134762234_n.jpg" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/d9077e01-80ed-4443-9337-def755aa1a9b.jpeg" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/IMG_8641.JPG" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>                
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/504205883_763628395987769_7841701017866733486_n.jpg" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/fd9c0af8-6941-4974-a245-c55e13ff2c5f.jpeg" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/28babb57-bb8f-4cdf-8739-b188e87cac5d.jpeg" alt="Group photo in front of the Foundever office lobby with company logo visible" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>                
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/98e7a655-6af4-4c48-82b1-4f51cd30e8d0.jpeg" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/00253419-91d1-4120-96ce-698305ba1278.jpeg" alt="Tour group walking through ADB headquarters with security escort" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>                
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/b4f2314d-4c7c-451b-b23d-1a05191ceb7d.jpeg" alt="Lunch buffet at Teleperformance's employee cafeteria with smiling faces" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>                               
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/bbe18627-42ac-4454-a40f-3d862d3fc341.jpeg" alt="Visiting Burnham Park in Baguio with colorful boats on the lake" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>                
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/d238844a-9931-4118-8231-211c74f41f1d.jpeg" alt="Final group photo at Picnic Grove in Tagaytay with panoramic view" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg">
+                    <img src="pictures/8d7bd732-37bf-404c-8529-d6cca8f96a84.jpeg" alt="Students listening intently during a presentation at Google's auditorium" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">BSCS Tour '25</h3>
+                    <p class="text-gray-400">An educational tour organized by the Computer Science Department exploring technology companies in the Philippines, followed by visits to Tagaytay and Baguio.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#companies" class="text-gray-400 hover:text-white transition">Companies</a></li>
+                        <li><a href="#schedule" class="text-gray-400 hover:text-white transition">Schedule</a></li>
+                        <li><a href="#venue" class="text-gray-400 hover:text-white transition">Venue</a></li>
+                        <li><a href="#speakers" class="text-gray-400 hover:text-white transition">Speakers</a></li>
+                        <li><a href="#gallery" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="text-gray-400 mb-2">Computer Science Department</p>
+                    <p class="text-gray-400 mb-2">June 8-15, 2025</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>Thank you for the transformative BSCS Educational Tour 2025. The insights from Foundever, Google, Teleperformance, Kollab, ADB, and MicroSourcing, and the tranquility of Tagaytay & Baguio, have left a lasting impact on me, Indira Mojon Ulah. Immense gratitude for this inspiring experience!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('button').addEventListener('click', function() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Update active nav link on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', function() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+

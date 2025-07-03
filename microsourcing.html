@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroSourcing - BSCS Educational Tour 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom CSS for consistency and slight enhancements */
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-white text-gray-800; 
+        }
+        .container {
+            @apply mx-auto px-4 sm:px-6 lg:px-8;
+        }
+        .gradient-bg-header {
+            background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        }
+        .back-button {
+            @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+        }
+        .section-title {
+            @apply text-3xl font-extrabold text-center mb-6 text-gray-800 dark:text-gray-100; /* Made bolder */
+        }
+        .info-card {
+            @apply bg-white rounded-xl shadow-lg p-6 sm:p-8 transition-all duration-300 ease-in-out;
+        }
+        .info-card:hover {
+            @apply transform -translate-y-1 shadow-xl;
+        }
+        /* Style for image hover effect */
+        .company-image-hover:hover {
+            transform: scale(1.03); /* Slightly enlarge image on hover */
+            transition: transform 0.3s ease-in-out; /* Smooth transition */
+        }
+
+        /* Dark mode styles - consistent with your main portfolio */
+        body.dark {
+            @apply bg-gray-900 text-gray-200;
+        }
+        body.dark .text-gray-800 {
+            @apply text-gray-200;
+        }
+        body.dark .text-gray-600 {
+            @apply text-gray-400;
+        }
+        body.dark .gradient-bg-header {
+            background: linear-gradient(135deg, #4338ca 0%, #7c3aed 100%);
+        }
+        body.dark .back-button {
+            @apply bg-purple-600 hover:bg-purple-700 focus:ring-purple-500;
+        }
+        body.dark .info-card {
+            @apply bg-gray-800 border border-gray-700;
+        }
+    </style>
+</head>
+<body class="dark:bg-gray-900 dark:text-gray-200">
+
+    <!-- Header Section -->
+    <header class="gradient-bg-header text-white py-12 sm:py-16">
+        <div class="container text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold mb-4">MicroSourcing</h1>
+            <p class="text-xl sm:text-2xl font-light opacity-90">Learning About Real-World Tech Jobs</p>
+        </div>
+    </header>
+
+    <main class="container py-12 sm:py-16">
+        <!-- Back to Educational Tour Button -->
+        <div class="mb-10 text-left">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Tour Overview
+            </a>
+        </div>
+
+        <!-- Company Overview Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl text-center font-light opacity-90">Inside Microsourcing Headquarters</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <!-- Image with responsive 16:9 aspect ratio and hover effect -->
+                <div class="aspect-w-16 aspect-h-9 mb-6 overflow-hidden rounded-lg">
+                    <img src="pictures/510474506_1231263722131767_4354223233627877406_n.jpg" alt="MicroSourcing Office" class="w-full h-full object-cover company-image-hover" onerror="this.src='https://placehold.co/800x450/a777e3/ffffff?text=MicroSourcing+Office'">
+                </div>
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    On June 11, 2025, we, the BSCS students from WMSU, visited MicroSourcing in Quezon City. This trip was organized to show us how tech companies work and what jobs are out there in the IT-BPM world.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+                    Ms. Heidee Enriquez, the CEO, welcomed us. She talked about how important digital skills, being able to adapt, and always learning are for today's jobs. She told us to be curious and use these visits to see how our school lessons fit into real work.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+                    We then toured their modern office, seeing how their cool setup helps people work well and feel good. MicroSourcing also cares a lot about helping Filipino professionals grow, offering flexible work and career programs.
+                </p>
+            </div>
+        </section>
+
+        <!-- Insights from the Visit Section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl text-center font-light opacity-90">My Personal Insights</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    My visit to MicroSourcing was super helpful! It really showed me the ins and outs of how a big outsourcing company runs. As a Frontend Developer and UI Designer, I noticed how their office design and digital tools help people work together smoothly, even when they're working for clients far away.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                    The LinkedIn workshop was a big highlight for me. We learned how to make our LinkedIn profiles strong, connect with people in the industry, and use the platform to find internships and jobs. This part of the trip made me feel much more ready to build my professional brand online and find future opportunities.
+                </p>
+            </div>
+        </section>
+
+        <!-- What this means to us section -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl text-center font-light opacity-90">What This Tour Meant To Us</p>
+            <div class="info-card max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                    This visit really got us excited about careers in the IT-BPM sector. It gave us clear ideas about what companies expect and the many different jobs we can get with a Computer Science degree.
+                </p>
+                <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+                    WMSU CCS keeps organizing these trips to help us connect with the industry and become competitive tech professionals ready for the world!
+                </p>
+            </div>
+        </section>
+
+        <!-- Photo Gallery (Optional - Add your own images here) -->
+        <section class="mb-12">
+            <p class="text-xl sm:text-2xl text-center font-light opacity-90">Moments From Our Visits</p> 
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <!-- Added company-image-hover class to these images -->
+                <img src="pictures/509595239_1231265715464901_6334663141877993534_n.jpg" alt="MicroSourcing office interior" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">                
+                <img src="pictures/510963138_1231265745464898_1259833966503804390_n.jpg" alt="MicroSourcing office interior" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/509973675_1231265672131572_8925611866154316307_n.jpg" alt="MicroSourcing presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/bbc01f6c-ef55-4eb9-a68d-fffdbbb941ba.jpeg" alt="Tour group photo at MicroSourcing" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/510746572_1231264822131657_988076642351242645_n.jpg" alt="Tour group photo at MicroSourcing" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+                <img src="pictures/ec4cc643-2c71-4545-a45b-70838fb7ed99.jpeg" alt="MicroSourcing presentation" class="w-full h-48 object-cover rounded-lg shadow-md company-image-hover">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 dark:bg-gray-900">
+        <div class="container text-center">
+            <p>&copy; 2025 BSCS Educational Tour.</p>
+            <p class="mt-2 text-gray-400">
+                A heartfelt thank you to everyone who made the BSCS Educational Tour 2025 an unforgettable and enriching experience. The insights gained from our visits have been truly invaluable. This journey has deeply inspired me, Indira Mojon Ulah, and I am incredibly grateful for every opportunity.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle Logic (consistent with your main portfolio)
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+        const currentTheme = localStorage.getItem('theme');
+
+        function applyTheme(theme) {
+            if (theme === 'dark') {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        }
+
+        // Initial theme application
+        // Ensure the page defaults to 'light' if no theme is saved
+        if (currentTheme) {
+            applyTheme(currentTheme);
+        } else {
+            applyTheme('light'); // Default to light mode
+            localStorage.setItem('theme', 'light'); // Save light mode as default
+        }
+
+        // Fallback for image errors
+        document.querySelectorAll('img').forEach(img => {
+            img.onerror = function() {
+                this.src = 'https://placehold.co/400x300/6e8efb/ffffff?text=Image+Not+Found'; // Generic fallback
+            };
+        });
+    </script>
+</body>
+</html>
